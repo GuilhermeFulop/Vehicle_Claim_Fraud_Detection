@@ -9,16 +9,18 @@ import json
 
 st.markdown("<h1 style='text-align: center; color: black;'>Vehicle Isurance Fraud Prediction App</h1>", unsafe_allow_html=True)
 
+htp="https://raw.githubusercontent.com/GuilhermeFulop/Vehicle_Claim_Fraud_Detection/edit/main/Deploy/car_insurance.png"
+
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image('car_insurance.png', width = 250)
+    st.image(htp, width = 250)
 
 with col2:
-    st.image('car_insurance.png', width = 250)
+    st.image(htp, width = 250)
 
 with col3:
-    st.image('car_insurance.png', width = 250)
+    st.image(htp, width = 250)
 
 
 # importing the model
