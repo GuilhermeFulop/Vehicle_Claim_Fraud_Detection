@@ -5,7 +5,7 @@ import json
 
 ## Creating the header of our App ##
 
-st.markdown("<h1 style='text-align: center; color: black;'>Vehicle Isurance Fraud Prediction App</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>Vehicle Insurance Fraud Prediction App</h1>", unsafe_allow_html=True)
 
 htp="https://raw.githubusercontent.com/GuilhermeFulop/Vehicle_Claim_Fraud_Detection/main/Deploy/car_insurance.png"
 
