@@ -24,7 +24,7 @@ with col3:
 # importing the model
 
 with open('Deploy/rf.sav', 'rb') as handle:
-    model = handle.read()
+    model = handle.load()
 
 # Opening the json files
 
