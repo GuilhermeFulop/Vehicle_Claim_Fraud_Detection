@@ -28,22 +28,22 @@ with open('Deploy/rf.sav', 'rb') as handle:
 
 # Opening the json files
 
-with open('vehicle_price_cat_to_number.json', 'r') as file_json:
+with open('Deploy/vehicle_price_cat_to_number.json', 'r') as file_json:
     vehicle_price_get = json.loads(file_json.read())
 
-with open('all_perils_cat_to_num.json', 'r') as file_json:
+with open('Deploy/all_perils_cat_to_num.json', 'r') as file_json:
     all_perils_get = json.loads(file_json.read())
 
-with open('sedan_cat_to_num.json', 'r') as file_json:
+with open('Deploy/sedan_cat_to_num.json', 'r') as file_json:
     sedan_get = json.loads(file_json.read())
 
-with open('policy_holder_cat_to_num.json', 'r') as file_json:
+with open('Deploy/policy_holder_cat_to_num.json', 'r') as file_json:
     policy_holder_get = json.loads(file_json.read())
 
-with open('deductible.json', 'r') as file_json:
+with open('Deploy/deductible.json', 'r') as file_json:
     deductible_get = json.loads(file_json.read())
 
-with open('address_change_claim_cat_to_num.json', 'r') as file_json:
+with open('Deploy/address_change_claim_cat_to_num.json', 'r') as file_json:
     address_change_get = json.loads(file_json.read())
 
 # creating the boxes to select the values of each attribute
