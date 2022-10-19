@@ -23,8 +23,7 @@ with col3:
 
 # importing the model
 
-with open('Deploy/rf.sav', 'rb') as handle:
-    model = handle.load()
+model = pickle.load(open('Deploy/rf.sav', 'rb'))
 
 # Opening the json files
 
