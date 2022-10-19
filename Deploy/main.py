@@ -23,8 +23,8 @@ with col3:
 
 # importing the model
 
-with open('Deploy/rf.sav', 'rb') as handle
-model = handle.read()
+with open('Deploy/rf.sav', 'rb') as handle:
+    model = handle.read()
 
 # Opening the json files
 
